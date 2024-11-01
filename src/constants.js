@@ -6,7 +6,7 @@ import {
 } from 'react-icons/si';
 
 const navdata = {
-    logo:'/logo.jpg',
+    logo:'public/logo.jpg',
     navlinks : [
         {
             id: 1,
@@ -40,7 +40,7 @@ const herodata = {
     greeting:"Hi there! I'm",
     name:"Sumit",
     data:"I'm a software engineer skilled in Next.js, React.js, TypeScript, and Node.js, with experience in building web apps, optimizing performance, and enhancing API response.",
-    image:"/avatar.jpg"
+    image:"public/avatar.jpg"
 }
 
 const skilldata = {
@@ -123,7 +123,7 @@ const projectsdata = {
             des: 'This project is a robust user authentication API featuring registration, email verification, login, password reset, and profile management. Built with Node.js, Express.js, TypeScript, and MongoDB, it ensures secure user authentication via JWT and supports email notifications with Nodemailer.',
             mission: 'To learn how authention is done and developed in the background and its importance',
             language: 'Node js, Typescript, Express, MongoDB',
-            images: '/pj1.jpg'
+            images: 'public/pj1.jpg'
         },
         {
             id:2,
@@ -131,7 +131,7 @@ const projectsdata = {
             des: 'High-performance landing page web application built with Next.js and Tailwind CSS, following best practices for scalability, accessibility, and optimal user experience. Leverages server-side rendering and code-splitting for lightning-fast load times.',
             mission: 'Hone the skill of building beautiful UI\'s',
             language: 'Next Js, TailwindCSS, Typescript, React',
-            images: '/pj2.png'
+            images: 'public/pj2.png'
         },
         {
             id:3,
@@ -139,7 +139,7 @@ const projectsdata = {
             des: 'A lightweight, multi-threaded HTTP server written in C that serves static files and handles basic routing',
             mission: 'Built this complex http server which suports routing, files and more features',
             language: 'C',
-            images: '/pj3.jpg'
+            images: 'public/pj3.jpg'
         },
         {
             id:4,
@@ -147,7 +147,7 @@ const projectsdata = {
             des: 'Next.js and Tailwind CSS combine to create a visually appealing and responsive Car search application. Give it a star if you like it.',
             mission: 'Advancing and mastering latest techstacks and more.',
             language: 'NextJs, TailwindCSS',
-            images: '/pj4.png'
+            images: 'public/pj4.png'
         },
         {
             id:5,
@@ -155,7 +155,7 @@ const projectsdata = {
             des: 'A beautiful stunning landing page. Build with latest Next JS and Tailwind CSS.',
             mission: 'Mastering Intergation of API\'s and Raw web pages',
             language: 'NextJs, TailwindCSS, RapidAPI',
-            images: '/pj5.png'
+            images: 'public/pj5.png'
         },
     ]
 }
